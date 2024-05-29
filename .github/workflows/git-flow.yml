@@ -2,7 +2,7 @@ name: GitFlow CI
 
 on: 
   pull_request_review:
-    branches: [main, develop]
+    branches: [main, develop, release/*, hotfix/*]
 
 jobs:
   build:
